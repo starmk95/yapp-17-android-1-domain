@@ -9,4 +9,12 @@ public class Emotion {
         this.emotion = emotion;
         this.emotionColor = emotionColor;
     }
+
+    public String getEmotion() {
+        return emotion;
+    }
+
+    public EmotionColor getEmotionColor() {
+        return emotionColor;
+    }
 }
