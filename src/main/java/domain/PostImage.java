@@ -1,13 +1,12 @@
 package domain;
 
+import lombok.Getter;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
 public class PostImage {
+    @NonNull
     private String url;
-
-    public PostImage(String url) {
-        this.url = url;
-    }
-
-    public String getUrl() {
-        return url;
-    }
 }
